@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FFFFFF;
+    font-family: 'Mulish', arial;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 200px;    
+}
+header h2{
+    color: #89C5CC;
+    font-weight: bold;
+}
+nav li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E5E5E5;
+}
+nav a:hover{
+    color: #1F1534;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+aside h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+}
+aside span{
+    color: #89C5CC;
+}
+
+aside p{
+    font-size: 16px;
+    padding: 30px 0;
+    line-height: 26px;
+}
+aside button{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    background: #69B99D;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+   padding: 12px 30px;
+   
+}
+aside img{
+    padding-right: 10px;
+}
+.imagem-principal .logoballs{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+footer{
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin: 40px 0;
+}

@@ -36,6 +36,7 @@ main{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding-top: 40px;
 }
 
 aside h1{
